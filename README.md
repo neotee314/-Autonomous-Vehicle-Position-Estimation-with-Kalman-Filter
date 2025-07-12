@@ -70,15 +70,14 @@ This project implements a **Kalman Filter** to estimate the position and velocit
 
 ### Performance Metrics
 
-```python
 Q = np.diag([
-    0.1,  # x-position noise
-    0.1,  # y-position noise
-    0.5,  # x-velocity noise
-    0.5   # y-velocity noise
+0.1, # x-position noise
+0.1, # y-position noise
+0.5, # x-velocity noise
+0.5 # y-velocity noise
 ])
 
-![Result](images/Figure_1.png)
+![Result ](images/Figure_1.png)
 
 ![Result](images/Figure_2.png)
 
@@ -96,4 +95,7 @@ Q = np.diag([
 - **Languages**: Python
 - **Libraries**: NumPy, Matplotlib, AirSim API
 - **Tools**: Anaconda for environment management.
+
+```
+
 ```
