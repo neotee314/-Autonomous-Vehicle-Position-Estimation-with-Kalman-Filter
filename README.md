@@ -1,6 +1,6 @@
 # Autonomous Vehicle Position Estimation with Kalman Filter
 
-![AirSim Simulation ](images/airsim_screenshot.png) _(Example: Vehicle in AirSim environment)_
+![AirSim Simulation ](images/airsim_screenshot.png)
 
 ## Project Overview
 
