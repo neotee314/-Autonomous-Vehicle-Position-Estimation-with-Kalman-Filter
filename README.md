@@ -88,7 +88,7 @@ Q = np.diag([
 
 1. Install AirSim and dependencies via `conda env create -f environment.yml`.
 2. Launch `AirSimNH.exe` and select the vehicle mode.
-3. Execute `python student_task.py` to start the simulation.
+3. Execute `python airsim_task.py` to start the simulation.
 
 ## Technical Stack
 
