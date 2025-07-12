@@ -40,7 +40,7 @@ This project implements a **Kalman Filter** to estimate the position and velocit
   - IMU-only: Drifts over time.
   - Combined: Balanced accuracy and responsiveness.
 
-![Result](images/result.png) _(Example: Position estimation errors over time)_
+![Result](images/result.png)
 
 ## How to Run
 
