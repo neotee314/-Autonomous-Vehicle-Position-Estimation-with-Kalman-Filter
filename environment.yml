@@ -1,0 +1,12 @@
+name: kipraktikum3
+dependencies:
+  - python=3.8.5
+  - numpy
+  - matplotlib
+  - pip<=21.3.1
+  - pip:
+    - msgpack-rpc-python
+    - airsim
+    - pymap3d
+    - typing
+    - pandas

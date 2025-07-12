@@ -1,0 +1,38 @@
+{
+	"SettingsVersion": 1.2,
+	"SimMode": "Car",
+
+	"Vehicles": {
+		"TestCar": {
+			"VehicleType": "PhysXCar",
+			"X": 0, "Y": 0, "Z": -2,
+			"Sensors": {
+				"Gps":{
+					"SensorType": 3,
+					"Enabled" : true,
+					"EphTimeConstant": 0.9,
+					"EpvTimeConstant": 0.9,
+					"EphInitial": 25,
+					"EpvInitial": 25,
+					"EphFinal": 0.1,
+					"EpvFinal": 0.1,
+					"EphMin3d": 3,
+					"EphMin2d": 4,
+					"UpdateLatency": 0.0,
+					"UpdateFrequency": 50,
+					"StartupDelay": 1
+				},
+				"IMU":{
+					"SensorType": 2,
+					"Enabled" : true,
+					"AngularRandomWalk": 0.3,
+					"GyroBiasStabilityTau": 500,
+					"GyroBiasStability": 0.0,
+					"VelocityRandomWalk": 0.2,
+					"AccelBiasStabilityTau": 800,
+					"AccelBiasStability": 0.0
+				}
+			}
+		}
+	}
+}
